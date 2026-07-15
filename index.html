@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dobblit — Learn Russian the fun way</title>
+<meta name="description" content="Dobblit is a fast-paced matching card game for learning Russian vocabulary. Spot the one matching picture, say the word, and build your Cyrillic vocabulary through play.">
+<meta property="og:title" content="Dobblit — Learn Russian the fun way">
+<meta property="og:description" content="A fast matching card game for learning Russian vocabulary. Spot the match, say the word, learn Cyrillic.">
+<meta property="og:image" content="assets/deck_black.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1a324e">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top">Dobblit</a>
+  <nav>
+    <a href="#how">How it works</a>
+    <a href="decks.html">Decks</a>
+    <a href="#buy" class="btn btn-sm">Buy</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Learn Russian<br><span class="accent">the fun way.</span></h1>
+      <p class="lead">A fast-paced matching card game. Any two cards share exactly
+        <strong>one</strong> picture — spot it, say the Russian word, and build your
+        Cyrillic vocabulary without even trying.</p>
+      <div class="cta-row">
+        <a href="#buy" class="btn btn-lg">Get the deck</a>
+        <a href="#how" class="btn btn-ghost btn-lg">See how it works</a>
+      </div>
+      <p class="microcopy">9 decks · 500+ words · for kids &amp; adults</p>
+    </div>
+    <div class="hero-art">
+      <img src="assets/deck.png" alt="A splayed fan of Dobblit cards with the title card on top" loading="eager">
+    </div>
+  </section>
+
+  <!-- STEPS -->
+  <section id="how" class="band">
+    <h2>Match it. Say it. Learn it.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Match it</h3>
+        <p>Race to find the single picture shared between your card and the pile.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Say it</h3>
+        <p>Call out its Russian word — the Cyrillic and pronunciation are right on the card.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Learn it</h3>
+        <p>Win the card and keep going. Vocabulary sticks because you're playing, not drilling.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="video-band">
+    <div class="video-wrap">
+      <video controls playsinline poster="assets/deck_black.png" preload="none">
+        <source src="assets/promo.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="video-copy">
+      <h2>See it in action</h2>
+      <p>Every two cards always share exactly one matching symbol — that's the magic
+        (and the math) behind the game. Watch a round play out.</p>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="band alt">
+    <h2>What's in the box</h2>
+    <div class="features">
+      <div class="feature"><span class="fi">🃏</span><h3>9 unique decks</h3><p>Each deck teaches a different set of words — no overlap — so you keep learning.</p></div>
+      <div class="feature"><span class="fi">📚</span><h3>500+ words</h3><p>Everyday nouns: animals, food, home, travel and more.</p></div>
+      <div class="feature"><span class="fi">🔤</span><h3>Cyrillic + sound</h3><p>Every picture shows the Russian word and an easy pronunciation guide.</p></div>
+      <div class="feature"><span class="fi">👨‍👩‍👧</span><h3>All ages</h3><p>Great for kids, families, classrooms, and adult self-learners.</p></div>
+      <div class="feature"><span class="fi">⚡</span><h3>Fast rounds</h3><p>A game takes minutes — perfect for travel and quick practice.</p></div>
+      <div class="feature"><span class="fi">🇷🇺</span><h3>No prior Russian</h3><p>Start from zero and learn to read Cyrillic as you play.</p></div>
+    </div>
+  </section>
+
+  <!-- DECK SHOWCASE -->
+  <section id="deck" class="showcase">
+    <img src="assets/cards.png" alt="A fan of Dobblit game cards showing Russian vocabulary">
+    <div class="showcase-copy">
+      <h2>Beautifully simple cards</h2>
+      <p>Clean, consistent artwork with one match guaranteed between any two cards.
+        Collect all nine decks to cover a broad Russian vocabulary.</p>
+      <a href="decks.html" class="btn btn-lg">Browse the 9 decks</a>
+    </div>
+  </section>
+
+  <!-- BUY -->
+  <section id="buy" class="buy">
+    <h2>Ready to play?</h2>
+    <p>Dobblit decks are available on Etsy.</p>
+    <a href="https://www.etsy.com/shop/Dobblit" class="btn btn-lg btn-gold" rel="noopener">Buy on Etsy</a>
+  </section>
+
+</main>
+
+<footer>
+  <p class="foot-brand">Dobblit</p>
+  <p>Learn Russian the fun way.</p>
+  <p class="fine">Icons by <a href="https://openmoji.org" rel="noopener">OpenMoji</a> — the open-source
+    emoji and icon project. Licensed under CC BY-SA 4.0.</p>
+  <p class="fine">© <span id="yr"></span> Dobblit · dobblit.com</p>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
